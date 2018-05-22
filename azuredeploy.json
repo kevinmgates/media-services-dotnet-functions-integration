@@ -59,28 +59,28 @@
     },
     "mediaServicesAccountServicePrincipalClientId": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "ec0d17df-e33e-4fa1-9af4-f7532766ddfd",
       "metadata": {
         "description": "Service Principal Client ID to access your media services account. See https://docs.microsoft.com/en-us/azure/media-services/media-services-portal-get-started-with-aad#service-principal-authentication"
       }
     },
     "mediaServicesAccountServicePrincipalClientSecret": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "Ai+qylkgIm+8nXwWkBfev9+Dl+sdTwkRCXVS9PJYetk=",
       "metadata": {
         "description": "Service Principal Client Secret to access your media services account. See https://docs.microsoft.com/en-us/azure/media-services/media-services-portal-get-started-with-aad#service-principal-authentication"
       }
     },
     "mediaServicesStorageAccountName": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "filmdoveamsstorage",
       "metadata": {
         "description": "Storage Accouunt Name of the Media Services account"
       }
     },
     "mediaServicesStorageAccountKey": {
       "type": "string",
-      "defaultValue": "",
+      "defaultValue": "+ZoB1HId8ZBDtRiZRNZwHzZudCqTWUs7JbisV+7WWZ2rdOH4+yo9vpWJtv7AvjSUW4owqFy30sqPAM41G7Kuaw==",
       "metadata": {
         "description": "Storage Accouunt Key of the Media Services account"
       }
