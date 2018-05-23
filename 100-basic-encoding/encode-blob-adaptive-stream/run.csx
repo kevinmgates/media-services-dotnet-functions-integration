@@ -88,7 +88,7 @@ public static void Run(CloudBlockBlob inputBlob, string fileName, string fileExt
         // Step 2: Create an Encoding Job
 
         // Declare a new encoding job with the Standard encoder
-        IJob job = _context.Jobs.Create("Function - Encode-blob-adaptive-stream2");
+        IJob job = _context.Jobs.Create("Function - Encode-blob-adaptive-stream");
 
         // Get a media processor reference, and pass to it the name of the 
         // processor to use for the specific task.
