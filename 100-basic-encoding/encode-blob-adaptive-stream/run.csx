@@ -96,7 +96,7 @@ public static void Run(CloudBlockBlob inputBlob, string fileName, string fileExt
 
 
         // Create a task with the encoding details, using the Adaptive Streaming System Preset.
-        ITask task = job.Tasks.AddNew("Encode with Adaptive Streaming",
+        ITask task = job.Tasks.AddNew("Encode with Adaptive Streaming2",
             processor,
             "Adaptive Streaming",
             TaskOptions.None);
