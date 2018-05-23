@@ -11,7 +11,7 @@
       "name": "outputBlob",
       "type": "blob",
       "direction": "InOut",
-      "path": "output/{fileName}-Output.mp4",
+      "path": "output/{fileName}-output/{fileName}-Output.mp4",
       "connection": "StorageConnection"
     }
   ],
